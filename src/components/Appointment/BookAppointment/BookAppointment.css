@@ -1,0 +1,7 @@
+.text-brand{
+    color: rgb(3, 134, 134);
+}
+.display{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}

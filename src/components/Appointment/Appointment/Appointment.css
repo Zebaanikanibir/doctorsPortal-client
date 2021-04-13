@@ -1,0 +1,11 @@
+.Header{
+    height:600px;
+    width: 100%;
+    position: relative;
+    background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)) ,url('../../../images/professional-dentist-tools-chair-dental-office_128319-10.jpg'); 
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    }
