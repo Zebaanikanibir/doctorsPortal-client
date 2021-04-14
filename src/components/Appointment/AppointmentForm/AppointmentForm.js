@@ -19,7 +19,7 @@ const AppointmentForm = ({ modalIsOpen, closeModal,appointmentOn, date }) => {
     data.service = appointmentOn;
     data.date = date.toLocaleString();
     data.created = new Date().toLocaleString()
-    fetch('http://localhost:5003/addAppointment',{
+    fetch('https://dry-forest-66504.herokuapp.com/addAppointment',{
 
     method:'POST',
     headers:{'content-type':'application/json'},

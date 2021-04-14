@@ -13,7 +13,7 @@ const Sidebar = () => {
      
     useEffect(()=>{
 
-    fetch('http://localhost:5003/isDoctor', {
+    fetch('https://dry-forest-66504.herokuapp.com/isDoctor', {
 
     method:'POST',
     headers:{'content-type':'application/json'},
